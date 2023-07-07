@@ -86,6 +86,7 @@ while playAgain.lower() == "yes":
   # Question to check if player wants to play again
   playAgain = input("Would you like to play again? (Yes or No): ")
 
+  #Displays a thank you message if the player doesn't want to play again
 if playAgain.upper() == "NO":
   print("\n"+"Thank you for Playing!")
 
