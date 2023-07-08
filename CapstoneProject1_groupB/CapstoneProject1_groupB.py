@@ -44,8 +44,7 @@ prizePerCorrectAnswer = 200000
 # Welcome Message
 print(
   "Welcome to Who Wants to be a Millionaire!" + "\n" +
-  "There are 5 questions to answer and each correct answer is worth £200,000."
-  + "\n" + "Good Luck!" + "\n")
+  "There are 5 questions to answer and each correct answer is worth ï¿½200,000." + "\n" + "Good Luck!" + "\n")
 
 
 playAgain = "yes"
@@ -66,7 +65,7 @@ while playAgain.lower() == "yes":
 
   # total score and prize money print statement
   print(
-    f"You scored {int(correctAnswers/10)} out of 5. Congratulations!!!! Your total prize money is £{correctAnswers * prizePerCorrectAnswer}. "
+    f"You scored {int(correctAnswers/10)} out of 5. Congratulations!!!! Your total prize money is Â£{correctAnswers * prizePerCorrectAnswer}. "
   )
 
   # Update high scores
