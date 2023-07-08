@@ -44,7 +44,7 @@ prizePerCorrectAnswer = 200000
 # Welcome Message
 print(
   "Welcome to Who Wants to be a Millionaire!" + "\n" +
-  "There are 5 questions to answer and each correct answer is worth �200,000." + "\n" + "Good Luck!" + "\n")
+  "There are 5 questions to answer and each correct answer is worth £200,000." + "\n" + "Good Luck!" + "\n")
 
 
 playAgain = "yes"
