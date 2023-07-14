@@ -1,13 +1,11 @@
 
-
-
 # High Scores
 highScores = [
-  {"score":60,"Name":"Billy"},
-  {"score":40,"Name":"Tommy"},
-  {"score":35,"Name":"Ronny"},
-  {"score":10,"Name":"Timmy"},
-  {"score":45,"Name":"Jimmy"}
+  {"score":180,"Name":"Billy"},
+  {"score":90,"Name":"Tommy"},
+  {"score":150,"Name":"Ronny"},
+  {"score":60,"Name":"Timmy"},
+  {"score":80,"Name":"Jimmy"}
 ]
 
 # high scores variable to sort scores in order
@@ -51,121 +49,118 @@ quizQs = [
   {
     "question": "Who holds the record for most Premier League red cards?\nA: Patrick Vieira B: Roy Keane \n",
     "answer": "a",
-    "questionMed": " C: Duncan Ferguson D: Joey Barton\n",
-    "questionHard": " E: John Terry F: Vinnie Jones\n"
+    "questionMed": "C: Duncan Ferguson D: Joey Barton\n",
+    "questionHard": "E: John Terry F: Vinnie Jones\n"
   },
     # Question 6
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": " C:  D: \n",
-    "questionHard": " E:  F: \n"
+    "questionMed": "C:  D: \n",
+    "questionHard": "E:  F: \n"
   },
     # Question 7
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": " C:  D: \n",
-    "questionHard": " E:  F: \n"
+    "questionMed": "C:  D: \n",
+    "questionHard": "E:  F: \n"
   },
     # Question 8
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": " C:  D: \n",
-    "questionHard": " E:  F: \n"
+    "questionMed": "C:  D: \n",
+    "questionHard": "E:  F: \n"
   },
     # Question 9
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": " C:  D: \n",
-    "questionHard": " E:  F: \n"
+    "questionMed": "C:  D: \n",
+    "questionHard": "E:  F: \n"
   },
     # Question 10
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": " C:  D: \n",
-    "questionHard": " E:  F: \n"
+    "questionMed": "C:  D: \n",
+    "questionHard": "E:  F: \n"
   },
     # Question 11
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": " C:  D: \n",
-    "questionHard": " E:  F: \n"
+    "questionMed": "C:  D: \n",
+    "questionHard": "E:  F: \n"
   },
     # Question 12
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": " C:  D: \n",
-    "questionHard": " E:  F: \n"
+    "questionMed": "C:  D: \n",
+    "questionHard": "E:  F: \n"
   },
     # Question 13
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": " C:  D: \n",
-    "questionHard": " E:  F: \n"
+    "questionMed": "C:  D: \n",
+    "questionHard": "E:  F: \n"
   },
     # Question 14
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": " C:  D: \n",
-    "questionHard": " E:  F: \n"
+    "questionMed": "C:  D: \n",
+    "questionHard": "E:  F: \n"
   },
     # Question 15
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": " C:  D: \n",
-    "questionHard": " E:  F: \n"
+    "questionMed": "C:  D: \n",
+    "questionHard": "E:  F: \n"
   },
     # Question 16
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": " C:  D: \n",
-    "questionHard": " E:  F: \n"
+    "questionMed": "C:  D: \n",
+    "questionHard": "E:  F: \n"
   },
     # Question 17
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": " C:  D: \n",
-    "questionHard": " E:  F: \n"
+    "questionMed": "C:  D: \n",
+    "questionHard": "E:  F: \n"
   },
     # Question 18
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": " C:  D: \n",
-    "questionHard": " E:  F: \n"
+    "questionMed": "C:  D: \n",
+    "questionHard": "E:  F: \n"
   },
     # Question 19
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": " C:  D: \n",
-    "questionHard": " E:  F: \n"
+    "questionMed": "C:  D: \n",
+    "questionHard": "E:  F: \n"
   },
     # Question 20
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": " C:  D: \n",
-    "questionHard": " E:  F: \n"
+    "questionMed": "C:  D: \n",
+    "questionHard": "E:  F: \n"
   },
 ]
 
 # user difficulty
 userDifficulty = "easy"
-
-# Variables for calculating prize money
-prizePerCorrectAnswer = 200000
 
 # Welcome Message
 print("Welcome to Capstone Quiz Master, the ultimate quiz game that will test your knowledge!\nWith 20 questions of varying difficulty, this game is designed for players of all backgrounds.\n")
@@ -246,7 +241,7 @@ while playAgain.lower() == "yes":
 
   #Displays a thank you message if the player doesn't want to play again
 if playAgain.upper() == "NO":
-  print("\n"+"Thank you for Playing!")
+  print("\n"+"Thank you for Playing!")  
 
 
 
