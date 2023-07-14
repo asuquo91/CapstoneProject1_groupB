@@ -21,141 +21,181 @@ quizQs = [
   {
     "question": "What year was the Premier League founded?\nA: 1992 B:1985 \n",
     "answer": "A",
-    "questionMed": "C: 1993 D: 1999 \n",
-    "questionHard": "E: 2005 F:1995\n"
+    "questionMed": "What year was the Premier League founded?\nA: 1999 B:1985 \nC: 1993 D: 1992 \n",
+    "answerMed": "D",
+    "questionHard": "What year was the Premier League founded?\nA: 1999 B:1985 \nC: 1993 D: 2000 \nE: 2005 F:1992\n",
+    "answerHard": "F"
   },
     # Question 2
   {
     "question": "Who has won the most Premier League titles?\nA: Chelsea B: Manchester United\n",
     "answer": "b",
-    "questionMed": "C: Liverpool D: Manchester City\n",
-    "questionHard": "E: Arsenal F:Chelsea\n"
+    "questionMed": "Who has won the most Premier League titles?\nA: Chelsea B: Manchester City\nC: Liverpool D: Manchester United\n",
+    "answerMed": "D",
+    "questionHard": "Who has won the most Premier League titles?\nA: Chelsea B: Manchester City\nC: Liverpool D: Manchester United\nE: Arsenal F:Chelsea\n",
+    "answerHard": "D"
   },
     # Question 3
   {
     "question": "Who holds the record for most Premier League hat-tricks?\nA: Alan Shearer B: Wayne Rooney \n",
     "answer": "a",
-    "questionMed": "C: Erling Haaland D: Didier Drogba\n",
-    "questionHard": "E: Harry Kane F: Thierry Henry\n"
+    "questionMed": "Who holds the record for most Premier League hat-tricks?\nA: Erling Haaland B: Wayne Rooney \nC: Alan Shearer D: Didier Drogba\n",
+    "answerMed": "C",
+    "questionHard": "Who holds the record for most Premier League hat-tricks?\nA: Erling Haaland B: Alan Shearer \nC: Wayne Rooney D: Didier Drogba\nE: Harry Kane F: Thierry Henry\n",
+    "answerHard": "B"
   },
     # Question 4
   {
     "question": "Who holds the record for most Premier League wins as a manager?\nA: Jose Mourhinio B: Sir Alex Ferguson\n",
     "answer": "b",
-    "questionMed": "C: Pep Guardiola D: Harry Rednapp\n",
-    "questionHard": "E: Arsene Wenger F: Jurgen Klopp\n"
+    "questionMed": "Who holds the record for most Premier League wins as a manager?\nA: Jose Mourhinio B: Harry Rednapp\nC: Pep Guardiola D: Sir Alex Ferguson\n",
+    "answerMed": "D",
+    "questionHard": "Who holds the record for most Premier League wins as a manager?\nA: Jose Mourhinio B: Harry Rednapp\nC: Pep Guardiola D: Arsene Wenger \nE: Sir Alex Ferguson F: Jurgen Klopp\n",
+    "answerHard": "E"
   },
     # Question 5
   {
     "question": "Who holds the record for most Premier League red cards?\nA: Patrick Vieira B: Roy Keane \n",
     "answer": "a",
-    "questionMed": "C: Duncan Ferguson D: Joey Barton\n",
-    "questionHard": "E: John Terry F: Vinnie Jones\n"
+    "questionMed": "Who holds the record for most Premier League red cards?\nA: Patrick Vieira B: Roy Keane \nC: Duncan Ferguson D: Joey Barton\n",
+    "answerMed": "a",
+    "questionHard": "Who holds the record for most Premier League red cards?\nA: Joey Barton  B: Roy Keane \nC: Duncan Ferguson D: Patrick Vieira\nE: John Terry F: Vinnie Jones\n",
+    "answerHard": "D"
   },
     # Question 6
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": "C:  D: \n",
-    "questionHard": "E:  F: \n"
+    "questionMed": "?\nA:  B:  \nC:  D: \n",
+    "answerMed": "C",
+    "questionHard": "?\nA:  B:  \nC:  D: \nE:  F: \n",
+    "answerHard": "F"
   },
     # Question 7
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": "C:  D: \n",
-    "questionHard": "E:  F: \n"
+    "questionMed": "?\nA:  B:  \nC:  D: \n",
+    "answerMed": "C",
+    "questionHard": "?\nA:  B:  \nC:  D: \nE:  F: \n",
+    "answerHard": "F"
   },
     # Question 8
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": "C:  D: \n",
-    "questionHard": "E:  F: \n"
+    "questionMed": "?\nA:  B:  \nC:  D: \n",
+    "answerMed": "C",
+    "questionHard": "?\nA:  B:  \nC:  D: \nE:  F: \n",
+    "answerHard": "F"
   },
     # Question 9
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": "C:  D: \n",
-    "questionHard": "E:  F: \n"
+    "questionMed": "?\nA:  B:  \nC:  D: \n",
+    "answerMed": "C",
+    "questionHard": "?\nA:  B:  \nC:  D: \nE:  F: \n",
+    "answerHard": "F"
   },
     # Question 10
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": "C:  D: \n",
-    "questionHard": "E:  F: \n"
+    "questionMed": "?\nA:  B:  \nC:  D: \n",
+    "answerMed": "C",
+    "questionHard": "?\nA:  B:  \nC:  D: \nE:  F: \n",
+    "answerHard": "F"
   },
     # Question 11
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": "C:  D: \n",
-    "questionHard": "E:  F: \n"
+    "questionMed": "?\nA:  B:  \nC:  D: \n",
+    "answerMed": "C",
+    "questionHard": "?\nA:  B:  \nC:  D: \nE:  F: \n",
+    "answerHard": "F"
   },
     # Question 12
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": "C:  D: \n",
-    "questionHard": "E:  F: \n"
+    "questionMed": "?\nA:  B:  \nC:  D: \n",
+    "answerMed": "C",
+    "questionHard": "?\nA:  B:  \nC:  D: \nE:  F: \n",
+    "answerHard": "F"
   },
     # Question 13
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": "C:  D: \n",
-    "questionHard": "E:  F: \n"
+    "questionMed": "?\nA:  B:  \nC:  D: \n",
+    "answerMed": "C",
+    "questionHard": "?\nA:  B:  \nC:  D: \nE:  F: \n",
+    "answerHard": "F"
   },
     # Question 14
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": "C:  D: \n",
-    "questionHard": "E:  F: \n"
+    "questionMed": "?\nA:  B:  \nC:  D: \n",
+    "answerMed": "C",
+    "questionHard": "?\nA:  B:  \nC:  D: \nE:  F: \n",
+    "answerHard": "F"
   },
     # Question 15
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": "C:  D: \n",
-    "questionHard": "E:  F: \n"
+    "questionMed": "?\nA:  B:  \nC:  D: \n",
+    "answerMed": "C",
+    "questionHard": "?\nA:  B:  \nC:  D: \nE:  F: \n",
+    "answerHard": "F"
   },
     # Question 16
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": "C:  D: \n",
-    "questionHard": "E:  F: \n"
+    "questionMed": "?\nA:  B:  \nC:  D: \n",
+    "answerMed": "C",
+    "questionHard": "?\nA:  B:  \nC:  D: \nE:  F: \n",
+    "answerHard": "F"
   },
     # Question 17
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": "C:  D: \n",
-    "questionHard": "E:  F: \n"
+    "questionMed": "?\nA:  B:  \nC:  D: \n",
+    "answerMed": "C",
+    "questionHard": "?\nA:  B:  \nC:  D: \nE:  F: \n",
+    "answerHard": "F"
   },
     # Question 18
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": "C:  D: \n",
-    "questionHard": "E:  F: \n"
+    "questionMed": "?\nA:  B:  \nC:  D: \n",
+    "answerMed": "C",
+    "questionHard": "?\nA:  B:  \nC:  D: \nE:  F: \n",
+    "answerHard": "F"
   },
     # Question 19
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": "C:  D: \n",
-    "questionHard": "E:  F: \n"
+    "questionMed": "?\nA:  B:  \nC:  D: \n",
+    "answerMed": "C",
+    "questionHard": "?\nA:  B:  \nC:  D: \nE:  F: \n",
+    "answerHard": "F"
   },
     # Question 20
   {
     "question": "?\nA:  B:  \n",
     "answer": "a",
-    "questionMed": "C:  D: \n",
-    "questionHard": "E:  F: \n"
+    "questionMed": "?\nA:  B:  \nC:  D: \n",
+    "answerMed": "C",
+    "questionHard": "?\nA:  B:  \nC:  D: \nE:  F: \n",
+    "answerHard": "F"
   },
 ]
 
@@ -197,9 +237,9 @@ while playAgain.lower() == "yes":
 
         # Medium difficulty loop
     elif userDifficulty.lower() == "medium":
-      answer = input("\n"+quizQs[i]["question"]+ quizQs[i]["questionMed"])
+      answer = input("\n"+quizQs[i]["questionMed"])
 
-      if answer.lower() == str(quizQs[i]["answer"]).lower():
+      if answer.lower() == str(quizQs[i]["answerMed"]).lower():
         print("\n" + "Congratulations that is correct!" + "\n")
         correctAnswers += 1
         playerScore += 8
@@ -208,9 +248,9 @@ while playAgain.lower() == "yes":
 
         # Hard difficulty loop
     elif userDifficulty.lower() == "hard":
-      answer = input("\n"+quizQs[i]["question"]+ quizQs[i]["questionMed"]+ quizQs[i]["questionHard"])
+      answer = input("\n"+quizQs[i]["questionHard"])
 
-      if answer.lower() == str(quizQs[i]["answer"]).lower():
+      if answer.lower() == str(quizQs[i]["answerHard"]).lower():
         print("\n" + "Congratulations that is correct!" + "\n")
         correctAnswers += 1
         playerScore += 10
