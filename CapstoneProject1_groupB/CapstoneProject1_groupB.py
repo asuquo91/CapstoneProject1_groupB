@@ -19,35 +19,145 @@ highScores = sorted(highScores, key=scoreSort)
 
 # Quiz Questions & Answers
 quizQs = [
+  # Question 1
   {
     "question": "What year was the Premier League founded?\nA: 1992 B:1985 \n",
     "answer": "A",
     "questionMed": "C: 1993 D: 1999 \n",
     "questionHard": "E: 2005 F:1995\n"
   },
+    # Question 2
   {
     "question": "Who has won the most Premier League titles?\nA: Chelsea B: Manchester United\n",
     "answer": "b",
     "questionMed": "C: Liverpool D: Manchester City\n",
     "questionHard": "E: Arsenal F:Chelsea\n"
   },
+    # Question 3
   {
     "question": "Who holds the record for most Premier League hat-tricks?\nA: Alan Shearer B: Wayne Rooney \n",
     "answer": "a",
     "questionMed": "C: Erling Haaland D: Didier Drogba\n",
     "questionHard": "E: Harry Kane F: Thierry Henry\n"
   },
+    # Question 4
   {
     "question": "Who holds the record for most Premier League wins as a manager?\nA: Jose Mourhinio B: Sir Alex Ferguson\n",
     "answer": "b",
     "questionMed": "C: Pep Guardiola D: Harry Rednapp\n",
     "questionHard": "E: Arsene Wenger F: Jurgen Klopp\n"
   },
+    # Question 5
   {
     "question": "Who holds the record for most Premier League red cards?\nA: Patrick Vieira B: Roy Keane \n",
     "answer": "a",
     "questionMed": " C: Duncan Ferguson D: Joey Barton\n",
     "questionHard": " E: John Terry F: Vinnie Jones\n"
+  },
+    # Question 6
+  {
+    "question": "?\nA:  B:  \n",
+    "answer": "a",
+    "questionMed": " C:  D: \n",
+    "questionHard": " E:  F: \n"
+  },
+    # Question 7
+  {
+    "question": "?\nA:  B:  \n",
+    "answer": "a",
+    "questionMed": " C:  D: \n",
+    "questionHard": " E:  F: \n"
+  },
+    # Question 8
+  {
+    "question": "?\nA:  B:  \n",
+    "answer": "a",
+    "questionMed": " C:  D: \n",
+    "questionHard": " E:  F: \n"
+  },
+    # Question 9
+  {
+    "question": "?\nA:  B:  \n",
+    "answer": "a",
+    "questionMed": " C:  D: \n",
+    "questionHard": " E:  F: \n"
+  },
+    # Question 10
+  {
+    "question": "?\nA:  B:  \n",
+    "answer": "a",
+    "questionMed": " C:  D: \n",
+    "questionHard": " E:  F: \n"
+  },
+    # Question 11
+  {
+    "question": "?\nA:  B:  \n",
+    "answer": "a",
+    "questionMed": " C:  D: \n",
+    "questionHard": " E:  F: \n"
+  },
+    # Question 12
+  {
+    "question": "?\nA:  B:  \n",
+    "answer": "a",
+    "questionMed": " C:  D: \n",
+    "questionHard": " E:  F: \n"
+  },
+    # Question 13
+  {
+    "question": "?\nA:  B:  \n",
+    "answer": "a",
+    "questionMed": " C:  D: \n",
+    "questionHard": " E:  F: \n"
+  },
+    # Question 14
+  {
+    "question": "?\nA:  B:  \n",
+    "answer": "a",
+    "questionMed": " C:  D: \n",
+    "questionHard": " E:  F: \n"
+  },
+    # Question 15
+  {
+    "question": "?\nA:  B:  \n",
+    "answer": "a",
+    "questionMed": " C:  D: \n",
+    "questionHard": " E:  F: \n"
+  },
+    # Question 16
+  {
+    "question": "?\nA:  B:  \n",
+    "answer": "a",
+    "questionMed": " C:  D: \n",
+    "questionHard": " E:  F: \n"
+  },
+    # Question 17
+  {
+    "question": "?\nA:  B:  \n",
+    "answer": "a",
+    "questionMed": " C:  D: \n",
+    "questionHard": " E:  F: \n"
+  },
+    # Question 18
+  {
+    "question": "?\nA:  B:  \n",
+    "answer": "a",
+    "questionMed": " C:  D: \n",
+    "questionHard": " E:  F: \n"
+  },
+    # Question 19
+  {
+    "question": "?\nA:  B:  \n",
+    "answer": "a",
+    "questionMed": " C:  D: \n",
+    "questionHard": " E:  F: \n"
+  },
+    # Question 20
+  {
+    "question": "?\nA:  B:  \n",
+    "answer": "a",
+    "questionMed": " C:  D: \n",
+    "questionHard": " E:  F: \n"
   },
 ]
 
@@ -58,9 +168,11 @@ userDifficulty = "easy"
 prizePerCorrectAnswer = 200000
 
 # Welcome Message
-print(
-  "Welcome to Who Wants to be a Millionaire!" + "\n" +
-  "There are 5 questions to answer and each correct answer is worth £200,000." + "\n" + "Good Luck!" + "\n")
+print("Welcome to Capstone Quiz Master, the ultimate quiz game that will test your knowledge!\nWith 20 questions of varying difficulty, this game is designed for players of all backgrounds.\n")
+print("There are three difficulty ratings: Easy, Medium, and Hard. Each question has a point value: Easy (5 points), Medium (8 points), and Hard (10 points).\n")
+print("To answer a question please type the Letter next to the answer. E.g. if the answer was C: 200 then type 'C'.\n")
+print("Think you can conquer Capstone Quiz Master? Gather your friends, family, or fellow trivia enthusiasts and let the challenge begin!\nShow off your knowledge, aim for high scores, and become the ultimate quiz master!\n")
+
 
 # play again status
 playAgain = "yes"
@@ -71,10 +183,11 @@ while playAgain.lower() == "yes":
   userDifficulty = input("Please enter your difficulty: Easy, Medium or Hard " + "\n")
 
   correctAnswers = 0
+  playerScore = 0
   
 
-  # for loop to run through the 5 questions
-  for i in range(5):
+  # for loop to run through the 20 questions
+  for i in range(20):
 
       # easy difficulty loop
     if userDifficulty.lower() == "easy":
@@ -82,7 +195,8 @@ while playAgain.lower() == "yes":
 
       if answer.lower() == str(quizQs[i]["answer"]).lower():
         print("\n" + "Congratulations that is correct!" + "\n")
-        correctAnswers += 10
+        correctAnswers += 1
+        playerScore += 5
       else:
         print("\n" + "That is incorrect!" + "\n")
 
@@ -92,7 +206,8 @@ while playAgain.lower() == "yes":
 
       if answer.lower() == str(quizQs[i]["answer"]).lower():
         print("\n" + "Congratulations that is correct!" + "\n")
-        correctAnswers += 10
+        correctAnswers += 1
+        playerScore += 8
       else:
         print("\n" + "That is incorrect!" + "\n")
 
@@ -102,19 +217,20 @@ while playAgain.lower() == "yes":
 
       if answer.lower() == str(quizQs[i]["answer"]).lower():
         print("\n" + "Congratulations that is correct!" + "\n")
-        correctAnswers += 10
+        correctAnswers += 1
+        playerScore += 10
       else:
         print("\n" + "That is incorrect!" + "\n")    
 
   # total score and prize money print statement
-  print(
-    f"You scored {int(correctAnswers/10)} out of 5. Congratulations!!!! Your total prize money is £{correctAnswers * prizePerCorrectAnswer}. "
-  )
+  print(f"You scored {correctAnswers} out of 20.\n")
+  
 
   # Update high scores
-  if correctAnswers > highScores[0]["score"]:
+  if playerScore > highScores[0]["score"]:
+    print("Congratulations you made it onto the Leaderboard!\n")
     highScores[0]["Name"] = userName
-    highScores[0]["score"] = correctAnswers
+    highScores[0]["score"] = playerScore
     highScores = sorted(highScores, key=scoreSort)
 
   # displays updated leaderboard
@@ -126,7 +242,7 @@ while playAgain.lower() == "yes":
   
 
   # Question to check if player wants to play again
-  playAgain = input("Would you like to play again? (Yes or No): ")
+  playAgain = input("\nWould you like to play again? (Yes or No): ")
 
   #Displays a thank you message if the player doesn't want to play again
 if playAgain.upper() == "NO":
